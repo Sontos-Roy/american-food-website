@@ -95,11 +95,13 @@ header{
     background-color: #ffc045;
     color: #3d2514;
     font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
     font-weight: 500;
     text-align: center;
 }
 .choose-title{
     font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
     font-weight: 500;
     font-size: 50px;
     color: #3d2514;
@@ -146,3 +148,56 @@ header{
     box-shadow: 4px 3px 8px #6f6d6d;
 }
 /* slider end  */
+
+/* contact section start */
+.contact-subtitle{
+    margin-top: 80px;
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+    color: #3d2514;
+    padding: 0;
+
+}
+.contact-title{
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 50px;
+    color: #3d2514;
+    padding: 20px 0;
+}
+.find-table{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contact-form div input{
+    height: 60px;
+}
+section .contact-burger{
+    position: absolute;
+    margin-top: 50px;
+    left: 0;
+}
+section .contact-botol{
+    position: absolute;
+    margin-top: 300px;
+    left: 50px;
+}
+section .contact-plate{
+    position: absolute;
+    margin-top: 20%;
+    right: 0;
+}
+/* contact section end */
+.footer{
+    margin-top: 200px;
+    background-image: url(../image/footer-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 50px;
+}
