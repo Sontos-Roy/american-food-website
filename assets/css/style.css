@@ -198,6 +198,11 @@ section .contact-plate{
     background-image: url(../image/footer-img.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 300px;
     margin-bottom: 50px;
+}
+.menu2 a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
 }
