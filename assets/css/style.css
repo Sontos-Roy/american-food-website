@@ -207,3 +207,12 @@ section .contact-plate{
     text-decoration: none;
     color: white;
 }
+.social{
+    position: absolute;
+    margin-top: 50px;
+    right: 10%;
+}
+.social a{
+    color: white;
+    padding: 20px;
+}
