@@ -29,9 +29,9 @@ header{
     font-weight: 500;
     margin: 0 40px;
 }
-.menu li:last-child a{
+/* .menu li:last-child a{
     margin-right: 0;
-}
+} */
 .bar1, .bar2, .bar3 {
     width: 25px;
     height: 2px;
@@ -89,6 +89,36 @@ header{
     text-transform: uppercase;
 }
 /* cover end  */
+/* banner section start  */
+.banner1{
+    background-image: url(../image/banner1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 380px;
+
+}
+.banner2{
+    background-image: url(../image/banner2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 180px;
+}
+.banner3{
+    background-image: url(../image/banner3.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    min-height: 180px;
+}
+
+.banner-title{
+    padding: 20px;
+}
+.banner-title h3, .banner-title h1{
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+/* banner section end  */
 
 /* choose section start  */
 .choose .tasty{
@@ -211,7 +241,7 @@ section .contact-plate{
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
 }
-.social{
+.footer-right .social{
     position: absolute;
     margin-top: 120px;
     right: 10%;
