@@ -28,6 +28,12 @@ header{
     font-size: 22px;
     font-weight: 500;
     margin: 0 40px;
+    cursor: pointer !important;
+    z-index: 9999;
+}
+.menu li a:hover{
+    color: black !important;
+    transition: 0.3s !important;
 }
 /* .menu li:last-child a{
     margin-right: 0;
@@ -39,14 +45,14 @@ header{
     margin: 9px 2px;
     transition: 0.4s;
   }
-  
+
   .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
   }
-  
+
   .change .bar2 {opacity: 0;}
-  
+
   .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
@@ -58,11 +64,9 @@ header{
     background-image: url(../image/bg-cover.png);
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 99;
 }
-.cover-burger{
-    margin-top: -100px;
-    
-}
+
 .c-desc{
     margin-top: 100px;
     font-family: 'Bebas Neue', cursive;
