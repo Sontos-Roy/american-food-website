@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/sontossharma/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp /* $DEPLOYPATH
